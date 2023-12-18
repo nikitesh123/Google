@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.mdiv{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn.wallpapersafari.com/86/56/5RWAe8.jpg);     
+}
+
+.google{
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+
+input[type="text"]{
+  margin-top: 35px;
+  margin-left: 30%;
+  height: 45px;
+  width: 40%;
+  border-radius: 20px;
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  text-align: left 50px;
+  padding-left: 25px;
+  cursor: pointer;
+  
+}
+
+.left_icon{
+  z-index: 3px;
+  background-color: blue;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/022/613/022/non_2x/google-lens-icon-logo-symbol-free-png.png);
+}
+
+.logo{
+  height: 300px;
+  width: 43%;
+  margin-top: 30px;
+  margin-left: 30%;
+  background-color: transparent;
+  padding: 20px;
+}
+
+.logo div{
+  margin: 6px;
+  margin-left: 30px;
+  height: 70px;
+  width: 70px;
+  display: inline-flex;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
+.logo1{
+  background-image:url(https://www.freepnglogos.com/uploads/youtube-logo-png-images-0.png) ;
+}
+
+.logo2{
+  background-image: url(https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png);
+
+}
+
+.logo3{
+  background-image: url(https://www.freepnglogos.com/uploads/trophy-png/gold-trophy-shiny-png-0.png);
+  
+}
+
+.logo4{
+  background-image: url(https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-icon-marilyn-scott-0.png);
+  
+}
+
+.logo5{
+  background-image: url(https://www.freepnglogos.com/uploads/whatsapp-logo-light-green-png-0.png);
+  
+}
+
+.logo6{
+  background-image: url(https://www.freepnglogos.com/uploads/telegram-logo-png-0.png);
+  
+}
+
+.logo7{
+  background-image: url(https://www.freepnglogos.com/uploads/logo-chatgpt-png/black-chatgpt-logo-circle-symbol-black-png-0.png);
+
+}
+
+.logo8{
+  background-image: url(https://www.freepnglogos.com/uploads/starbucks-logo-png-transparent-0.png);
+  
+}
+
+.logo9{
+  background-image: url(https://www.freepnglogos.com/uploads/youtube-shorts-logo-png/red-shorts-png-logo-with-play-icon-0.png);
+}
+
+.logo10{
+  background-image: url(https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png);
+}
+
+
+  
+/* .search [input]{
+  padding-top: 8px;
+  padding-left: 30px;
+  font-size: 20px;
+} */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    height: 50px;
+    align-content: end;
+
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
